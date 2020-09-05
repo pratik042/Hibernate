@@ -35,7 +35,6 @@ public class fetch {
 		while(itr.hasNext())
 		{ 	
 			 store ss=itr.next();
-			
 			System.out.println(" id="+ss.getId());
 			System.out.println("\n");
 		//	System.out.println(" name="+ss.getName());

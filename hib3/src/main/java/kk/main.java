@@ -28,6 +28,8 @@ public class main {
 		Session ss=sf.openSession();
 		org.hibernate.Transaction  tx= ss.beginTransaction();
 		
+		
+		
 		ss.save(str);
 		
 		tx.commit();
